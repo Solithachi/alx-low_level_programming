@@ -1,17 +1,18 @@
-#include "void print_alphabet(void).h"
+#include "main.h"
+
 /**
- * print_alphabet - print the alphabet
- *
- * Return: Always success
+ * print_alphabet - entry point
+ * Return: 0
  */
+
 void print_alphabet(void)
 {
+	char c = 'a';
 
-	int n;
-
-	for (n = 'a'; n <= 'z'; n++)
+	while (c <= 'z')
 	{
-		_putchar(n);
+		_putchar(c);
+		c++;
 	}
 	_putchar('\n');
 }
