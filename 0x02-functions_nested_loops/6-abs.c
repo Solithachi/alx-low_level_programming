@@ -3,11 +3,11 @@
 /**
  * _abs - Entry point
  * @n: n is an integer
- * Description: prints the absolute value integer
+ * Description: prints the absolute value of an integer
  * Return: int
  */
 
-int _abs(int)
+int _abs(int n)
 {
 	if (n > 0)
 	{
