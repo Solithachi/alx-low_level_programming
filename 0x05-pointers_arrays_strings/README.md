@@ -1,1 +1,1 @@
-98 Battery st.
+Pointer and string
