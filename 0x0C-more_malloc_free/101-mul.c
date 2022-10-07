@@ -8,9 +8,8 @@
  */
 
 int main(int argc, char *argv[])
-{
-	unsigned long mul;
-	int i, j;
+unsigned long mul;
+int i, j;
 	if (argc != 3)
 	{
 		printf("Error\n");
